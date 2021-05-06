@@ -41,7 +41,7 @@
 	<div>
 		<p> <textarea rows="10px" cols="92px" style="border:1px solid black;" readonly="readonly">${vo.content} </textarea> </p>
 	<sql:setDataSource var="ds" driver="oracle.jdbc.OracleDriver"
-	 url="jdbc:oracle:thin:@db202104090913_high?TNS_ADMIN=D:/Wallet_DB202104090913" 
+	 url="jdbc:oracle:thin:@db202104090913_high?TNS_ADMIN=C:/Wallet_DB202104090913" 
 	 user="final" password="a20210409A"/>
 	<sql:query var="rs" dataSource="${ds }">
 	 select * from answer where questionNumber = '${vo.questionNumber}'

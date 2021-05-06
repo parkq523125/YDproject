@@ -7,12 +7,12 @@
         <Console name="console_com" target="SYSTEM_OUT">
             <PatternLayout pattern="%d{MM-dd HH:mm} %5p [%c{-3}] %M-%L %m%n" />
         </Console>
-        <!-- <File name="MyFile" fileName="d:/logs/app.log">
+        <!-- <File name="MyFile" fileName="C:/logs/app.log">
       		<PatternLayout>
         		<Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
       		</PatternLayout>
     	</File>
-    	<File name="MyFile1" fileName="d:/logs/app.html">
+    	<File name="MyFile1" fileName="C:/logs/app.html">
       		<HtmlLayout datePattern="ISO8601" timezone="GMT+9"/>
     	</File> -->         
     </Appenders>
